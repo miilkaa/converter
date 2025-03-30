@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	mode := flag.String("mode", "", "Conversion mode: json or env")
+	mode := flag.String("mode", "", "Conversion mode: json2env or env2json")
 	jsonFile := flag.String("json", "config.json", "Path to the JSON file")
 	envName := flag.String("env", ".env", "Name of the output env file")
 
